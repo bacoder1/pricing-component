@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Pricing Component</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header__title">Our Pricing</h1>
+      <div class="pricing__toggle">
+        <h3>Annually</h3>
+        <label class="switch">
+          <input type="checkbox" id="checkbox"/>
+          <span class="slider round"></span>
+        </label>
+        <h3>Monthly</h3>
+      </div>
+    </header>
+    <main>
+      <div class="plan__monthly" data-status="active" id="planMonthly">
+        <div class="pricing basic">
+          <h3>Basic</h3>
+          <h1><span>$</span>19.99</h1>
+          <h2>500 GB Storage</h2>
+          <h2>2 Users Allowed</h2>
+          <h2>Send up to 3 GB</h2>
+          <button>Learn More</button>
+        </div>
+        <div class="pricing professional">
+          <h3>Professional</h3>
+          <h1><span>$</span>24.99</h1>
+          <h2>1 TB Storage</h2>
+          <h2>5 Users Allowed</h2>
+          <h2>Send up to 10 GB</h2>
+          <button>Learn More</button>
+        </div>
+        <div class="pricing master">
+          <h3>Master</h3>
+          <h1><span>$</span>39.99</h1>
+          <h2>2 TB Storage</h2>
+          <h2>10 Users Allowed</h2>
+          <h2>Send up to 20 GB</h2>
+          <button>Learn More</button>
+        </div>
+      </div>
+      <div class="plan__yearly" data-status="inactive" id="planYearly">
+        <div class="pricing basic">
+          <h3>Basic</h3>
+          <h1><span>$</span>199.99</h1>
+          <h2>500 GB Storage</h2>
+          <h2>2 Users Allowed</h2>
+          <h2>Send up to 3 GB</h2>
+          <button>Learn More</button>
+        </div>
+        <div class="pricing professional">
+          <h3>Professional</h3>
+          <h1><span>$</span>249.99</h1>
+          <h2>1 TB Storage</h2>
+          <h2>5 Users Allowed</h2>
+          <h2>Send up to 10 GB</h2>
+          <button>Learn More</button>
+        </div>
+        <div class="pricing master">
+          <h3>Master</h3>
+          <h1><span>$</span>399.99</h1>
+          <h2>2 TB Storage</h2>
+          <h2>10 Users Allowed</h2>
+          <h2>Send up to 20 GB</h2>
+          <button>Learn More</button>
+        </div>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
